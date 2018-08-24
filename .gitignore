@@ -1,9 +1,18 @@
-#  Local .terraform directories
-**/.terraform/*
+# Sublime text files
+*.sublime-workspace
 
-# .tfstate files
-*.tfstate
-*.tfstate.*
+# Python build files
+__pycache__
 
-# .tfvars files
+# Ignore build variables
+.terraform
+.variables.sh
+variables.mk
+
+# Terraform state files
+*.tfstate*
 *.tfvars
+*.tfplan
+
+# Other filesystem cruft
+.DS_Store
